@@ -1,6 +1,6 @@
 # PointPainting (Point Cloud Semantic Segmentation)
 
-Pytorch implementation of [PointPainting](https://arxiv.org/pdf/1911.10150.pdf) for realtime pointcloud semantic segmentation painting based on [BiSeNetv2](https://arxiv.org/pdf/1808.00897.pdf) 
+Pytorch implementation of [PointPainting](https://arxiv.org/pdf/1911.10150.pdf) for realtime pointcloud semantic segmentation painting based on [BiSeNetv2](https://arxiv.org/pdf/1808.00897.pdf).  It works by projecting lidar points into the output of an image-only semantic segmentation network and appending the class scores to each point. The output is (painted) point cloud can then be fed to any lidar-only detection method.
 
 ![pointpainting](images/pp.png)
 
